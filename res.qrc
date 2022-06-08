@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/Label">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/yz.jpg</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/保存.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/打开.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/关闭.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/立方体.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/三维坐标.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/网格开.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/移动.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/yz.png</file>
+        <file>images/Close.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/center.png</file>
+        <file>../../../../wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/mcenter.png</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>

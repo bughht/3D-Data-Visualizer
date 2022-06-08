@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1500</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1500</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>:/Label/icon.png</normalon>
+   </iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>50</width>
+    <height>50</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Viewer" name="viewer" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1461</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>1</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionsaveto"/>
+    <addaction name="actionclosefile"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="actionSwitchYZ"/>
+    <addaction name="actionTranslate"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>显示</string>
+    </property>
+    <addaction name="actionAABB"/>
+    <addaction name="actionGrid"/>
+    <addaction name="actionCenter"/>
+    <addaction name="actionm_Center"/>
+    <addaction name="actionsurface_mesh"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionSwitchYZ"/>
+   <addaction name="actionTranslate"/>
+   <addaction name="actionAABB"/>
+   <addaction name="actionGrid"/>
+   <addaction name="actionCenter"/>
+   <addaction name="actionm_Center"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/打开.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/打开.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/保存.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/保存.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionSwitchYZ">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/yz.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/yz.png</iconset>
+   </property>
+   <property name="text">
+    <string>交换YZ轴</string>
+   </property>
+  </action>
+  <action name="actionTranslate">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/移动.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/移动.png</iconset>
+   </property>
+   <property name="text">
+    <string>移动</string>
+   </property>
+  </action>
+  <action name="actionAABB">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/立方体.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/立方体.png</iconset>
+   </property>
+   <property name="text">
+    <string>AABB包围盒</string>
+   </property>
+  </action>
+  <action name="actionCenter">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/center.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/center.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制中心</string>
+   </property>
+  </action>
+  <action name="actionGrid">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/网格开.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/网格开.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示地面网格</string>
+   </property>
+  </action>
+  <action name="actionm_Center">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/mcenter.png</normaloff>:/Label/wechatfile/WeChat Files/wxid_7zjp12clvtad22/FileStorage/File/2020-11/Desktop/mcenter.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制重心</string>
+   </property>
+  </action>
+  <action name="actionsaveto">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="actionsurface_mesh">
+   <property name="text">
+    <string>显示面片/网格</string>
+   </property>
+  </action>
+  <action name="actionclosefile">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/Label/images/Close.png</normaloff>:/Label/images/Close.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭文件</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Viewer</class>
+   <extends></extends>
+   <header>viewer.h</header>
+   <slots>
+    <slot>load_f()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionClose</sender>
+   <signal>triggered(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
